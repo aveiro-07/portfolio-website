@@ -26,7 +26,7 @@ a:hover {
   align-items: center;
   padding: 15px 30px;
   background-color: #1e1e1e;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 20px rgba(32, 188, 55, 0.4);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -35,6 +35,13 @@ a:hover {
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.nav-icons2{
+  scale: 1.5;
+  padding-right: 20px;
+  display: flex;
+  gap: 10px;
 }
 
 

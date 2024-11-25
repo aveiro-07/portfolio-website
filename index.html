@@ -12,6 +12,15 @@
     ul{
         list-style-type: none;
     }
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100vw;
+      z-index: 1000; /* Ensures it stays above other elements */
+      /* background-color: white; Optional: set a background to prevent transparency */
+      /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); Optional: add a shadow for better visibility */
+    }
+
     @keyframes typing {
     from {
         width: 0;
@@ -19,7 +28,7 @@
     to {
         width: 100%;
     }
-}
+    }
 
 @keyframes blink {
     from, to {
@@ -34,15 +43,18 @@
 <body>
   <header>
     <nav class="navbar"><i class="fa-regular fa-user" style="color: #0dfd35; text-shadow: 2px 2px 3px #7e9f7e;"></i>
+      
       <div style="text-shadow:2px 2px 4px #04f92d;" class="logo">Sworup Gautam</div>
+      
       <div style="padding-right: 600px; " class="search-bar">
         <input type="text" placeholder="Search...">
       </div>
-      <div class="nav-icons">
-        <a style="text-shadow:2px 1px 3px #1dd223;"  href="projects.html" target="_blank">Projects</a>
-        <a style="text-shadow:2px 1px 3px #1dd223;"  href="about.html" target="_blank">About Me</a>
-        <a style="text-shadow:2px 1px 3px #1dd223;"  href="contact.html" target="_blank">Contact</a>
-      </div>
+      
+      <div class="nav-icons"> <b>
+        <a style="text-shadow:1px 1px 5px  #1dd223;"  href="projects.html" target="_blank">Projects</a>
+        <a style="text-shadow:1px 1px 5px  #1dd223;"  href="about.html" target="_blank">About Me</a>
+        <a style="text-shadow:1px 1px 5px  #1dd223;"  href="contact.html" target="_blank">Contact</a>
+      </b></div>
     </nav>
   </header>
 
